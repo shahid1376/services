@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+
+
+
+
+#wraper{
+
+	width:900px;
+
+	margin:0 auto;
+
+	padding:15px 0px;
+
+
+}
+
+#wraper2{
+
+	width:900px;
+
+	margin:0 auto;
+
+/*	padding:15px 0px;*/
+	
+
+
+}
+
+.inner_wraper{
+
+	width:695px;
+
+	margin:0 auto;
+
+}
+
+.header{
+
+	width:600px;
+
+	
+
+	padding-bottom:10px;
+
+	
+
+}
+#header {
+	width:100%;
+	margin:0 auto;
+}
+#header2 {
+    float: left;
+    height: 150px;
+    width: 900px;
+	margin-top:100px;
+  	
+	position:relative;
+}
+#header2 h1 {
+	font-size:22px;
+	font-weight:normal;
+	text-align:left;
+	color:#000000;
+	margin:40px 65px 0 0;
+}
+#header .logo {
+	background:transparent url("../images/logo1.png") no-repeat left center;
+	display:block;
+	width:124px;
+	height:110px;
+	
+}
+
+	.header h3{
+
+		
+
+		display:block;
+
+		float:left;
+       
+		font:"Times New Roman", Times, serif;
+
+	}
+
+.logo{
+
+		width:120px;
+
+		height:120px;
+
+		display:block;
+
+		float:left;
+
+		background:url(../images/logo.png) no-repeat;
+
+	}
+
+
+
+	
+
+.persnal_info{
+
+	width:600px;
+
+	padding-top:10px;
+
+}
+
+	.persnal_info h3{
+
+		display:block;
+
+		padding-bottom:7px;
+
+		margin-bottom:20px;
+
+		border-bottom:2px solid #999;
+
+	}
+
+ 
+
+.student_info{
+
+	width:600px;
+
+	padding-bottom:10px;
+
+}
+
+	.student_info p{
+
+		width:200px;
+
+		float:left;
+
+		text-align:right;
+
+		
+
+		padding:8px 10px 0px 0px;
+
+	}
+
+.contact_textBox{
+
+	width:245px;
+
+	height:35px;
+
+	line-height:35px;
+
+
+	padding:0px 5px 0px 18px;
+
+	
+
+	float:left;
+
+	font-size:20px;
+
+}
+
+	.contact_textBox:focus{background:#E8E8E8;outline:1px solid #666;}
+
+.print_btn{
+
+	position:fixed;
+
+	top:42%;
+
+	left:0px;
+
+	background:#1d2022;
+
+}
+
+	.print_btn:hover{padding-left:20px;}
+
+.slip_header{
+
+	width:920px;
+
+	padding:25px 0px 0px 0px;
+
+}
+
+.pic_box{
+
+	width:140px;
+
+	height:140px;
+
+	background:url(../images/no_image.png) no-repeat;
+
+	float:right;
+
+}
+
+	.pic_box img{ width:140px; height:140px;}
+
+.midlle_text{
+
+	width:650px;
+
+	float:left;
+
+	font-size:18px;
+
+	text-align:center;
+
+}
+
+	.midlle_text h2{
+
+		display:block;
+
+		padding-bottom:50px;
+
+	}
+
+	.midlle_text p{
+
+		display:block;
+
+		text-decoration:underline;
+
+		padding-bottom:50px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.bg{
+
+ position:absolute;
+
+ z-index:-1;
+
+ top:0%;
+
+ left:25%;
+
+}
+
+ .bg img{opacity:0.2;filter: alpha(opacity = 20);}
+ 
+     .inHeaderLogin {
+    background-size: 100% 170px;
+    height: 170px;
+    background-color: #003a6a;
+}
+
+ .inFooterLogin {
+    background-size: 100% 170px;
+    height: 60px;
+    background-color: #003a6a;
+}
+
